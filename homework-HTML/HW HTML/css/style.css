@@ -7,5 +7,8 @@ body {
    color: aquamarine;
 }
 p {
-   font-size: 16px;
+   font-size: 30px;
+}
+.foto {
+   display: block;
 }
