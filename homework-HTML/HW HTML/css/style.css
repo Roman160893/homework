@@ -1,5 +1,5 @@
 body {
-   background: url(../img/backg.jpg);
+   background: url(../img/backg.jpg) 0 0 / cover no-repeat;
 }
 .conteiner {
    max-width: 800px;
