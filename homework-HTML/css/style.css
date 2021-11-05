@@ -1,0 +1,8 @@
+body {
+   background: url(/img/backg.jpg);
+}
+.conteiner {
+   width: 900px;
+   margin: o auto;
+   color: aquamarine;
+}
