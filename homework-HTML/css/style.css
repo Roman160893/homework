@@ -2,7 +2,7 @@ body {
    background: url(/img/backg.jpg);
 }
 .conteiner {
-   width: 900px;
-   margin: o auto;
+   max-width: 900px;
+   margin: 0 auto;
    color: aquamarine;
 }
