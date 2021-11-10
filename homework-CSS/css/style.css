@@ -1,0 +1,496 @@
+/*Обнуление*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+}
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+ul li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: inherit;
+}
+
+/* Підключення шрифтів */
+@font-face {
+   font-family: Avenir;
+   src: url(../fonts/AvenirLT-Light.woff2), url(../fonts/AvenirLT-Light.woff);
+   font-weight: 400;
+   font-display: swap;
+   font-style: normal;
+}
+@font-face {
+   font-family: Gilroy;
+   src: url(../fonts/Gilroy-Black.woff2), url(../fonts/Gilroy-Black.woff);
+   font-weight: 900;
+   font-display: swap;
+   font-style: normal;
+}
+body {
+   background: rgb(224, 224, 224);
+}
+.conteiner {
+   width: 100%;
+   max-width: 1400px;
+   margin: 0 auto;
+}
+.version {
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 48px;
+   color: #0b2239;
+   opacity: 0.3;
+}
+.title {
+   font-family: "Inter", sans-serif;
+   font-weight: 900;
+   font-size: 110px;
+   line-height: 133px;
+   color: #0b2239;
+}
+.made {
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 48px;
+   color: #0b2239;
+   opacity: 0.3;
+   margin-bottom: 425px;
+}
+/* ================================================= Контейнер 1 ========================================================== */
+.conteiner1 {
+   background: #0b2239;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 24px;
+   padding: 10px;
+}
+.conteiner1__text {
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 20px;
+   color: #ffffff;
+   margin: 16px 0;
+   max-width: 920px;
+}
+.conteiner1__setting {
+   margin: 0 20px 0 50px;
+}
+.conteiner1__setting-text {
+   font-family: "Inter", sans-serif;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 20px;
+   text-decoration-line: underline;
+   color: #4ad295;
+}
+.conteiner1__button {
+   width: 100%;
+   max-width: 130px;
+   background-color: #4ad295;
+   padding: 8px 10px 8px 10px;
+   border-radius: 2px;
+   transition: background 0.2s linear;
+   text-align: center;
+}
+.conteiner1__button:hover {
+   background: rgba(16, 205, 238, 0.774);
+}
+.conteiner1__button-text {
+   font-family: "Inter", sans-serif;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 20px;
+   color: #ffffff;
+}
+/* ================================================= Контейнер 2 ========================================================== */
+.conteiner2 {
+   background: #2b2627;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 16px 0;
+   margin-bottom: 72px;
+   padding: 10px;
+}
+.conteiner2__icon {
+   margin: 0 8px 0 0;
+}
+.conteiner2__text {
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   color: #ffffff;
+}
+.conteiner2__text span {
+   text-decoration: underline;
+   cursor: pointer;
+}
+.conteiner2__icon2 {
+   margin: 0 0 0 20px;
+   cursor: pointer;
+}
+/* ================================================= Контейнер 3 ========================================================== */
+.conteiner3 {
+   background: #fff;
+   width: 100%;
+   max-width: 570px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 16px;
+   box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+   border-radius: 16px;
+   margin-bottom: 24px;
+}
+.conteiner3__icon {
+   padding: 0 10px 0 0;
+}
+.conteiner3__text {
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+}
+.conteiner3__text span {
+   color: crimson;
+   cursor: pointer;
+}
+.conteiner3__button1 {
+   background: rgba(13, 12, 34, 0.05);
+   padding: 4px 12px;
+   border-radius: 8px;
+   margin-right: 10px;
+}
+.conteiner3__button1text {
+   font-size: 12px;
+   font-family: "Inter", sans-serif;
+   font-weight: 500;
+   color: #0d0c22;
+   line-height: 20px;
+}
+.conteiner3__button2 {
+   background: #ea4c89;
+   padding: 4px 10px;
+   border-radius: 8px;
+   margin-right: 16px;
+}
+.conteiner3__button2text {
+   font-family: "Inter", sans-serif;
+   font-weight: 500;
+   color: #ffffff;
+   font-size: 12px;
+   line-height: 20px;
+}
+/* ================================================= Контейнер 4 ========================================================== */
+.conteiner4 {
+   background: #26262b;
+   width: 100%;
+   max-width: 570px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 12px;
+   border-radius: 16px;
+   margin-bottom: 72px;
+}
+.conteiner4__text {
+   font-family: Avenir;
+   font-weight: 400;
+   color: #ffffff;
+   font-size: 12px;
+   line-height: 20px;
+}
+.conteiner4__text span {
+   color: darkgoldenrod;
+   cursor: pointer;
+}
+.conteiner4__button {
+   background: #ffffff;
+   border-radius: 8px;
+   padding: 4px 10px;
+}
+.conteiner4__button1text {
+   font-family: Avenir;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 20px;
+}
+/* ================================================= Контейнер колонка ========================================================== */
+.conteiner__column {
+   display: flex;
+   align-items: flex-start;
+   margin-bottom: 72px;
+}
+
+/* ================================================= Контейнер 5 ========================================================== */
+.conteiner5 {
+   background: rgba(28, 37, 64, 0.95);
+   width: 100%;
+   max-width: 360px;
+   padding: 24px;
+   border-radius: 6px;
+   display: inline-block;
+   margin-right: 40px;
+}
+.conteiner5__title {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: #ffffff;
+}
+.conteiner5__text {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: #ffffff;
+   margin-top: 10px;
+   margin-bottom: 16px;
+}
+.conteiner5__text span {
+   text-decoration: underline;
+   cursor: pointer;
+}
+.conteiner5__basement {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.conteiner5__basement-text {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   color: #ffffff;
+   margin-right: 15px;
+}
+.conteiner5__basement-button {
+   width: 100%;
+   max-width: 85px;
+   background-color: #09b3af;
+   text-align: center;
+   padding: 8px 20px;
+   border-radius: 6px;
+}
+.conteiner5__basement-button a {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+   color: #ffffff;
+}
+/* ================================================= Контейнер 6 ========================================================== */
+.conteiner6 {
+   display: inline-block;
+   width: 100%;
+   max-width: 360px;
+   background: #ffffff;
+   box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+   border-radius: 16px;
+   padding: 16px;
+}
+.conteiner6__title {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+.conteiner6__text {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   color: #687f8c;
+   font-size: 14px;
+   line-height: 20px;
+   margin-bottom: 16px;
+}
+.conteiner6__basement {
+   display: flex;
+}
+.conteiner6__basement_button1 {
+   width: 100%;
+   max-width: 160px;
+   padding: 8px;
+   background: #eaf0f4;
+   box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+   border-radius: 6px;
+   text-align: center;
+}
+.conteiner6__basement_button1 a {
+   color: #687f8c;
+   font-family: Roboto;
+   font-weight: 500;
+   font-size: 14px;
+}
+.conteiner6__basement_button2 {
+   width: 100%;
+   max-width: 160px;
+   padding: 8px;
+   background: #40c1a7;
+   box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+   border-radius: 6px;
+   text-align: center;
+   margin-left: 8px;
+}
+.conteiner6__basement_button2 a {
+   font-family: Roboto;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   color: #ffffff;
+}
+/* ================================================= Контейнер 7 ========================================================== */
+.conteiner7 {
+   width: 100%;
+   max-width: 320px;
+   background: #ffffff;
+   box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+   border-radius: 20px;
+   padding: 32px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-right: 40px;
+}
+.conteiner7__title {
+   font-family: Gilroy;
+   font-weight: 900;
+   font-size: 28px;
+   line-height: 48px;
+   color: #15295a;
+   text-align: center;
+}
+.conteiner7__text {
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #15295a;
+   text-align: center;
+   margin-bottom: 32px;
+}
+.conteiner7__button {
+   widows: 100%;
+   max-width: 121px;
+   background: #4a7eff;
+   border-radius: 43px;
+   padding: 10px 32px;
+   text-align: center;
+}
+.conteiner7__button a {
+   font-family: "Inter", sans-serif;
+   font-weight: 700;
+   color: #ffffff;
+   font-size: 16px;
+   line-height: 24px;
+}
+/* ================================================= Контейнер 8 ========================================================== */
+.conteiner8 {
+   width: 100%;
+   max-width: 320px;
+   background: #ffffff;
+   box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+   border-radius: 4px;
+   padding: 16px;
+}
+.conteiner8__text {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: #000000;
+   margin-bottom: 12px;
+}
+.conteiner8__basement {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.conteiner8__basement-button1 {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+   color: #6666ff;
+   margin-right: 10px;
+}
+.conteiner8__basement-button2 {
+   width: 100%;
+   max-width: 64px;
+   padding: 8px;
+   background: #6666ff;
+   border-radius: 4px;
+}
+.conteiner8__basement-button2 a {
+   font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 17px;
+   color: #ffffff;
+}
