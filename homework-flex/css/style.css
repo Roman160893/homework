@@ -83,7 +83,7 @@ h6 {
 }
 @font-face {
    font-family: Helvetica;
-   src: url(/fonts/HelveticaNeueCyr-Bold.woff2), url(/fonts/HelveticaNeueCyr-Bold.woff);
+   src: url(../fonts/HelveticaNeueCyr-Bold.woff2), url(../fonts/HelveticaNeueCyr-Bold.woff);
    font-weight: 700;
    font-display: swap;
    font-style: normal;
@@ -133,6 +133,7 @@ h6 {
    font-size: 16px;
    transition: all 0.1s linear;
    padding-right: 40px;
+   color: #212353;
 }
 .header__link:hover {
    font-weight: 800;
@@ -199,7 +200,7 @@ h6 {
    border-bottom: 0px solid #ffff;
 }
 .header__sublink {
-   color: #551a8b;
+   color: #212353;
 }
 .header__sublinks-sub {
    position: absolute;
@@ -305,7 +306,7 @@ h6 {
    max-width: 1400px;
    margin: 0 auto;
    display: flex;
-   background: url(/img/bk_pg1.png) 100% 100% / 885px 468px no-repeat;
+   background: url(../img/bk_pg1.png) 100% 100% / 885px 468px no-repeat;
 }
 .save__content {
    display: flex;
@@ -358,12 +359,12 @@ h6 {
 }
 @media (max-width: 1024px) {
    .save {
-      background: url(/img/bk_pg1.png) 100% 100% / 660px no-repeat;
+      background: url(../img/bk_pg1.png) 100% 100% / 660px no-repeat;
    }
 }
 @media (max-width: 880px) {
    .save {
-      background: url(/img/bk_pg1.png) 100% 100% / 560px no-repeat;
+      background: url(../img/bk_pg1.png) 100% 100% / 560px no-repeat;
    }
    .main {
       padding-top: 130px;
@@ -842,6 +843,9 @@ h6 {
    flex-direction: column;
    flex: 1 1 90%;
 }
+.footer__row-date-title p {
+   transition: all 0.2s ease;
+}
 .footer__row-date-title p:hover {
    font-weight: 800;
    cursor: pointer;
@@ -863,20 +867,20 @@ h6 {
    width: 100%;
    max-width: 49px;
 }
-.footer__row-date_text {
+.footer__row-date-text {
    font-family: Avenir;
    font-size: 16px;
    line-height: 28.8px;
    letter-spacing: 1%;
 }
-.footer__row-date_text p:nth-child(1) {
+.footer__row-date-text p:nth-child(1) {
    font-weight: 600;
    margin-bottom: 20px;
 }
-.footer__row-date_text p:nth-child(2) {
+.footer__row-date-text p:nth-child(2) {
    margin-bottom: 110px;
 }
-.footer__row-date_text p:nth-child(3) {
+.footer__row-date-text p:nth-child(3) {
    font-weight: 400;
    font-size: 12px;
    line-height: 21.6px;
@@ -884,6 +888,9 @@ h6 {
 .footer__row-about {
    display: flex;
    flex-direction: column;
+}
+.footer__row-about span {
+   transition: 0.3s ease;
 }
 .footer__row-about span:hover {
    font-weight: 800;
@@ -909,6 +916,9 @@ h6 {
 .footer__row-help {
    display: flex;
    flex-direction: column;
+}
+.footer__row-help span {
+   transition: 0.3s ease;
 }
 .footer__row-help span:hover {
    font-weight: 800;
@@ -950,6 +960,9 @@ h6 {
    opacity: 1;
    width: 50px;
 }
+.footer__row-soctitle span {
+   transition: ease 0.3s;
+}
 .footer__row-soctitle span:hover {
    font-weight: 800;
    cursor: pointer;
@@ -963,6 +976,7 @@ h6 {
    font-size: 18px;
 }
 .footer__row-helplink {
+   color: #212353;
    transition: all 0.3s;
 }
 .footer__row-helplink:hover {
@@ -1012,7 +1026,7 @@ h6 {
    .footer__row-date-title {
       margin-bottom: 10px;
    }
-   .footer__row-date_text p:nth-child(2) {
+   .footer__row-date-text p:nth-child(2) {
       margin-bottom: 10px;
    }
    .footer__row-abouttitle {
