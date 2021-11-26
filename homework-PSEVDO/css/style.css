@@ -12,7 +12,8 @@ body {
 }
 .wrapper {
    display: grid;
-   grid-template-columns: repeat(4, 50px);
+   grid-template-columns: repeat(6, 50px);
+   grid-auto-rows: auto;
    gap: 10px;
    justify-content: center;
    margin-top: 50px;
@@ -23,12 +24,14 @@ body {
    height: 50px;
    background: grey;
 }
-.item:nth-child(4n + 3) {
-   background: rgb(255, 0, 0);
+.item:nth-child(6n+3){
+   background: red;
 }
 .item:nth-last-child(1),
+.item:nth-last-child(2),
 .item:nth-last-child(3),
-.item:nth-last-child(4) {
+.item:nth-last-child(5),
+.item:nth-last-child(6) {
    background-color: blue;
 }
 .button {
