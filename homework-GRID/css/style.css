@@ -1079,13 +1079,14 @@
    }
    .footer__grid-bg {
       display: flex;
-      grid-auto-columns: auto;
-      background: rgba(39, 38, 38, 0);
+      flex: 1 1 100%;
+      background: rgba(27, 2, 2, 0.589);
    }
    .footer__grid {
       display: flex;
+      flex: 1 1 100%;
       flex-direction: column;
-      background: rgba(39, 38, 38, 0.589);
+      background: rgba(27, 2, 2, 0.589);
    }
    .footer__coop-grid {
       order: 4;
