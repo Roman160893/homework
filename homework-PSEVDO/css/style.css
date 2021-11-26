@@ -47,7 +47,7 @@ body {
    font-size: 24px;
    line-height: 28px;
    color: #ffffff;
-   padding: 15px 50px;
+   padding: 25px 100px;
 }
 .button::before {
    content: "";
@@ -58,7 +58,7 @@ body {
    border-bottom: 2px solid #c4c4c477;
    position: absolute;
    left: -246px;
-   top: 28px;
+   top: 37px;
 }
 .button::after {
    content: "";
@@ -69,5 +69,5 @@ body {
    border-bottom: 2px solid #c4c4c477;
    position: absolute;
    right: -246px;
-   top: 28px;
+   top: 37px;
 }
