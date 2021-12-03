@@ -1,0 +1,246 @@
+body {
+   background: #000;
+   padding: 100px 0;
+}
+.wrapper {
+   width: 100%;
+   max-width: 320px;
+   height: 100px;
+   margin: 0 auto;
+   /* background: #ccc; */
+   padding: 50px 0;
+   margin-bottom: 100px;
+}
+.burger::before {
+   content: "";
+   display: block;
+   width: 300px;
+   height: 5px;
+   background: rgb(255, 255, 255);
+   background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 13%,
+      rgba(0, 0, 0, 1) 13%,
+      rgba(0, 0, 0, 1) 25%,
+      rgba(0, 0, 0, 1) 30%,
+      rgba(255, 255, 255, 1) 30%
+   );
+   position: absolute;
+   top: 65px;
+   left: 0;
+   animation-name: bef;
+   animation-duration: 1s;
+   transition: box-shadow 0.3s ease 0s;
+}
+.burger.active::before {
+   animation-name: line2;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+}
+.burger {
+   position: relative;
+}
+.burger span {
+   position: absolute;
+   width: 300px;
+   height: 5px;
+   background: rgb(255, 255, 255);
+   background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 68%,
+      rgba(0, 0, 0, 1) 69%,
+      rgba(0, 0, 0, 1) 77%,
+      rgba(0, 0, 0, 1) 84%,
+      rgba(255, 255, 255, 1) 85%
+   );
+   animation-name: burger;
+   animation-duration: 1s;
+}
+.burger span.active {
+   animation-name: line1;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+}
+.burger::after {
+   content: "";
+   display: block;
+   width: 300px;
+   height: 5px;
+   background: rgb(255, 255, 255);
+   background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 68%,
+      rgba(0, 0, 0, 1) 69%,
+      rgba(0, 0, 0, 1) 77%,
+      rgba(0, 0, 0, 1) 84%,
+      rgba(255, 255, 255, 1) 85%
+   );
+   position: absolute;
+   top: 130px;
+   left: 0;
+   animation-name: aft;
+   animation-duration: 1s;
+   transition: box-shadow 0.3s ease 0s;
+}
+.burger.active::after {
+   animation-name: line3;
+   animation-duration: 1s;
+   animation-fill-mode: forwards;
+}
+.burger:hover::after {
+   box-shadow: 0px 0px 20px 10px rgba(4, 255, 17, 0.8);
+}
+.burger:hover::before {
+   box-shadow: 0px 0px 20px 10px rgba(255, 0, 0, 0.8);
+}
+@keyframes line1 {
+   0% {
+      top: 0px;
+   }
+   100% {
+      top: -40px;
+      opacity: 0;
+   }
+}
+@keyframes line2 {
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(35deg);
+   }
+}
+
+@keyframes line3 {
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(-35deg);
+      top: 65px;
+   }
+}
+
+@keyframes burger {
+   0% {
+      top: -40px;
+      opacity: 0;
+   }
+   100% {
+      top: 0px;
+   }
+}
+@keyframes bef {
+   0% {
+      transform: rotate(35deg);
+   }
+   100% {
+      transform: rotate(0deg);
+   }
+}
+@keyframes aft {
+   0% {
+      transform: rotate(-35deg);
+      top: 65px;
+   }
+   100% {
+      transform: rotate(0deg);
+   }
+}
+.conteiner {
+   width: 100%;
+   max-width: 800px;
+   height: 100%;
+   min-height: 500px;
+   background: #ccc;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.circle {
+   width: 40px;
+   display: inline-block;
+   height: 40px;
+   background: red;
+   border-radius: 50%;
+   box-shadow: 0px 62px 9px -5px #9d9a9a;
+}
+.item1 {
+   animation-name: left;
+   animation-duration: 6s;
+   animation-delay: 1s;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: linear;
+   transform-origin: 50% 0%;
+   animation-timing-function: ease-in-out;
+   background: rgb(29, 8, 221);
+   background: radial-gradient(circle, rgba(29, 8, 221, 1) 0%, rgba(37, 8, 211, 1) 5%);
+}
+.item2 {
+   background: rgb(29, 8, 221);
+   background: linear-gradient(
+      90deg,
+      rgba(29, 8, 221, 1) 3%,
+      rgba(42, 8, 206, 1) 95%,
+      rgba(211, 8, 8, 0.48252804539784666) 100%
+   );
+}
+.item3 {
+   background: linear-gradient(
+      45deg,
+      rgba(211, 8, 8, 0.48252804539784666),
+      rgba(29, 8, 221, 1),
+      rgba(211, 8, 8, 0.48252804539784666)
+   );
+}
+.item4 {
+   background: rgb(29, 8, 221);
+   background: linear-gradient(
+      270deg,
+      rgba(29, 8, 221, 0.5973739837731968) 1%,
+      rgba(211, 8, 8, 0.6674019949776786) 22%,
+      rgba(42, 8, 206, 0.5525560566023284) 42%,
+      rgba(211, 8, 8, 0.6646008745294993) 100%,
+      rgba(211, 8, 8, 0.6646008745294993) 100%
+   );
+}
+.item7 {
+   animation-name: right;
+   animation-duration: 6s;
+   animation-delay: 1s;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: linear;
+   transform-origin: 50% 0%;
+   animation-timing-function: ease-in-out;
+}
+@keyframes left {
+   0% {
+      transform: rotate(0deg);
+   }
+   50% {
+      transform: rotate(120deg);
+   }
+   75% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(0deg);
+   }
+}
+@keyframes right {
+   0% {
+      transform: rotate(-120deg);
+   }
+   30% {
+      transform: rotate(0deg);
+   }
+   70% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(-120deg);
+   }
+}
