@@ -964,7 +964,7 @@
 }
 .footer__link {
    display: flex;
-   vertical-align: center;
+   justify-content: center;
 }
 .footer__link li {
    margin: 0 37px;
