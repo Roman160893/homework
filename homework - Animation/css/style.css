@@ -38,6 +38,9 @@ body {
    animation-duration: 1s;
    animation-fill-mode: forwards;
 }
+.burger {
+   position: relative;
+}
 .burger span {
    position: absolute;
    width: 300px;
