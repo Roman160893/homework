@@ -10,6 +10,7 @@ body {
    /* background: #ccc; */
    padding: 50px 0;
    margin-bottom: 100px;
+   cursor: pointer;
 }
 .burger::before {
    content: "";
@@ -36,9 +37,6 @@ body {
    animation-name: line2;
    animation-duration: 1s;
    animation-fill-mode: forwards;
-}
-.burger {
-   position: relative;
 }
 .burger span {
    position: absolute;
