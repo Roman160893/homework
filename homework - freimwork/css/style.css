@@ -372,6 +372,7 @@
    letter-spacing: 0.09em;
    color: #8f8f8f;
    position: relative;
+   cursor: pointer;
 }
 .main__user-category-name::after {
    content: "";
