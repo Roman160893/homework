@@ -455,14 +455,14 @@
 }
 .gallery-col {
    padding-right: 25px;
-   padding-left: 25;
+   padding-left: 25px;
 }
 @media (max-width: 686px) {
    .gallery-row {
-      margin-bottom: 10px;
+      margin-bottom: 2px;
    }
    .gallery-col {
-      padding-right: 10px;
-      padding-left: 10;
+      padding-right: 2px;
+      padding-left: 2px;
    }
 }
