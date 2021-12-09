@@ -8,3 +8,11 @@ $(document).ready(function () {
       $(".bell__menu,.bell").toggleClass("active")
    })
 })
+
+const list = document.querySelectorAll('.main__user-category-name')
+list.forEach(item => {
+   item.addEventListener('click', (e) => {
+      list.forEach(el => { el.classList.remove('active'); });
+      item.classList.add('active')
+   })
+})

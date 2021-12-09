@@ -17,11 +17,11 @@
 </head>
 
 <body>
-   <header class="container-fluid header border-bottom p-0">
-      <div class="container">
-         <div class="row p-2 align-items-center text-center d-flex ">
+   <header class="header container-fluid border-bottom p-0">
+      <div class="header__container container ">
+         <div class=" row p-2 align-items-center text-center">
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md- col-sm-2 col { flex: 1 1 30%; }">
-               <img src="./img/header/logo.png" class="img-fluid" alt="">
+               <img src="./img/header/logo.png" class="w-100" alt="">
             </div>
             <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6 col-sm-5 d-md-flex justify-content-center d-none">
                <div class="header__col2">
@@ -76,23 +76,253 @@
          </div>
       </div>
    </header>
-   <main class="container-fluid">
-      <div class="container pt-5">
-         <div class="d-flex flex-row justify-content-center row">
-            <div class="col-1"></div>
-            <img class="col-3 img-fluid" src="./img/main/foto.png" alt="">
-            <div class="col-1"></div>
-            <div class="main__content col-7">
-               <div class="main__content-user-data d-flex align-items-center">
-                  <div class="main__content-usermane">name</div>
-                  <button type="button" class="btn btn-primary button__follow">Follow</button>
-                  <button type="button" class="btn btn-primary button__row"><span class="main__row"></span></button>
-                  <div class="main__circle"><span></span></div>
+
+
+
+   <main class="main container">
+      <div class="main__container container pt-5">
+         <div class="main__user-date d-flex flex-row justify-content-between row">
+            <div class="col-1 d-lg-block d-none"></div>
+            <img class="main__user-date-row main__user-date-foto col-3" src="./img/main/foto.png" alt="">
+            <div class="col-1 d-lg-block d-none"></div>
+            <div class="main__user-date-row main__content col-7 ">
+               <div class="main__content-user-data">
+                  <div class="main__content-user-data-row1 d-flex ">
+                     <div class="main__content-usermane">name</div>
+                     <button type="button" class="btn btn-primary button__follow">Follow</button>
+                     <button type="button" class="btn btn-primary button__row"><span class="main__row"></span></button>
+                     <div class="main__circle"><span></span></div>
+                  </div>
+                  <div class="main__content-user-data-row2 container-sm p-0">
+                     <div class="row">
+                        <div class="main__content-user-data-text col"><b>79</b> posts</div>
+                        <div class="main__content-user-data-text col"><b>379</b> followers</div>
+                        <div class="main__content-user-data-text col"> <b>179</b> following</div>
+                     </div>
+                  </div>
+                  <div class="main__content-user-data-row3 container-sm p-0">
+                     <div class="row">
+                        <div class="main__content-user-data-row3-name col">Name</div>
+                     </div>
+                     <div class="row">
+                        <div class="main__content-user-data-row3-text col">Lorem Ipsum is simply dummy text of the
+                           printing and typesetting industry.
+                           Lorem Ipsum has been the industry's standard dummy text.</div>
+                     </div>
+                     <div class="row">
+                        <div class="col"><a class="main__content-user-data-row3-link" href="">bit.ly/35Ce3mX</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="main__user-collection container">
+            <div class="main__user-collection-row row ">
+               <div class="col-1 d-lg-block d-none"></div>
+               <div class="main__user-collection-foto col-2 p-0">
+                  <img class="main__user-collection-foto-border" src="./img/main/img2.png" alt="">
+                  <p class="main__user-collection-name">Name</p>
+               </div>
+               <div class="main__user-collection-foto col-2 p-0">
+                  <img class="main__user-collection-foto-border" src="./img/main/img2.png" alt="">
+                  <p class="main__user-collection-name">Name</p>
+               </div>
+               <div class="main__user-collection-foto col-2 p-0">
+                  <img class="main__user-collection-foto-border" src="./img/main/img2.png" alt="">
+                  <p class="main__user-collection-name">Name</p>
+               </div>
+            </div>
+         </div>
+         <div class="main__user-category conteiner mb-3">
+            <div class="container border-top">
+               <div class="main__user-category-row row justify-content-center">
+                  <div class="main__user-category-col col-2">
+                     <img src="./img/main/img1.png" alt="">
+                     <span class="main__user-category-name">POST</span>
+                  </div>
+                  <div class="main__user-category-col col-2">
+                     <img src="./img/main/img3.png" alt="">
+                     <span class="main__user-category-name"> TAGGET</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="gallery container">
+            <div class="row gallery-row">
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="row gallery-row">
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="row gallery-row">
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="row gallery-row">
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="row gallery-row">
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="row gallery-row">
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="row gallery-row">
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
+               </div>
+               <div class="col-4 gallery-col">
+                  <div class="gallery-img">
+                     <img class="img__gallery3 w-100 " src="./img/gallery/gallery-foto.png" alt="">
+                  </div>
                </div>
             </div>
          </div>
       </div>
+      </div>
    </main>
+   <footer class="footer container">
+      <div class="footer-row row mb-3 justify-content-center">
+         <div class="footer-col col-auto">
+            Meta
+         </div>
+         <div class="footer-col col-auto">
+            Інформація
+         </div>
+         <div class="footer-col col-auto">
+            Блог
+         </div>
+         <div class="footer-col col-auto">
+            Вакансії
+         </div>
+         <div class="footer-col col-auto">
+            Довідка
+         </div>
+         <div class="footer-col col-auto">
+            IPA
+         </div>
+         <div class="footer-col col-auto">
+            Конфіденційність
+         </div>
+         <div class="footer-col col-auto">
+            Умови
+         </div>
+         <div class="footer-col col-auto">
+            Популярні облікові записи
+         </div>
+         <div class="footer-col col-auto">
+            Хештеги
+         </div>
+         <div class="footer-col col-auto">
+            Розташування
+         </div>
+         <div class="footer-col col-auto">
+            Instagram Lite
+         </div>
+      </div>
+      <div class="footer__year conteiner mb-3">
+         <div class="container">
+            <div class="footer__year-row row justify-content-center">
+               <div class="footer__year-row-col col-1">
+                  Українська
+               </div>
+               <div class="footer__year-row-col col-auto">
+                  © Instagram from Meta, 2021
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    <script src="./js/script.js"></script>
 </body>
