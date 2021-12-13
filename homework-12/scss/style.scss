@@ -297,7 +297,7 @@
       align-items: center;
       margin: 0px -15px;
       @media (max-width: 768px) {
-         flex-direction: column;
+         flex-direction: column-reverse;
          text-align: center;
          margin: 0px 0px;
       }
@@ -391,7 +391,7 @@
       align-items: center;
       justify-content: center;
       @media (max-width: 768px) {
-         flex-direction: column-reverse;
+         flex-direction: column;
          text-align: center;
          margin: 0px 0px;
       }
