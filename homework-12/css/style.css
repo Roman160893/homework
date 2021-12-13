@@ -206,7 +206,7 @@
 .introduce__bg {
   position: relative;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1800px;
   margin: 0 auto;
 }
 .introduce__bg img {
@@ -564,7 +564,7 @@
 .section__price {
   background: url(../img/page4/bg.png) 0 0/cover no-repeat;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1800px;
   margin: 0 auto;
   padding: 237px 0px 172px;
 }
@@ -665,7 +665,7 @@
 .footer {
   background: #e7ecff;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1800px;
   margin: 0 auto;
 }
 .footer__body {

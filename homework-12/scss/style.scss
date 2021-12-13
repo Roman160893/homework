@@ -162,7 +162,7 @@
    &__bg {
       position: relative;
       width: 100%;
-      max-width: 1440px;
+      max-width: 1800px;
       margin: 0 auto;
       & img {
          position: absolute;
@@ -467,7 +467,7 @@
    &__price {
       background: url(../img/page4/bg.png) 0 0 / cover no-repeat;
       width: 100%;
-      max-width: 1440px;
+      max-width: 1800px;
       margin: 0 auto;
       padding: 237px 0px 172px;
       @media (max-width: 768px) {
@@ -561,7 +561,7 @@
 .footer {
    background: #e7ecff;
    width: 100%;
-   max-width: 1440px;
+   max-width: 1800px;
    margin: 0 auto;
    // .footer__body
    &__body {
@@ -571,7 +571,7 @@
          flex-direction: column-reverse;
       }
    }
-   // .footer__company
+   // .footer__companygit
    &__company {
       display: flex;
       flex: 1 1 33.333%;
