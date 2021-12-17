@@ -9,6 +9,7 @@ function onYouTubeIframeAPIReady() {
    player = new YT.Player('video', {
       height: '390',
       width: '640',
+      rel: 0,
       videoId: 'M7lc1UVf-VE',
    });
 }
