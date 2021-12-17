@@ -583,6 +583,16 @@ button {
     clear: both;
 }
 
+.video__youtube {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    max-width: 640px;
+    height: 390px;
+    background: #000;
+    margin: 0 auto;
+}
+
 .advantages .adv-title {
     margin-top: 50px;
     font-family: "HelveticaNeueBold";
