@@ -570,7 +570,10 @@ button {
     height: 60px;
     background: url("../img/css_sprites2.png") -85px -10px;
 }
-
+.video__youtube {
+    display: flex;
+    justify-content: center;
+}
 .advantages {
     text-align: center;
     display: -webkit-box;
