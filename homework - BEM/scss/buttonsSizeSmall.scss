@@ -1,0 +1,18 @@
+.buttons-size-small {
+   margin-left: 144px;
+   display: flex;
+}
+.button-size-small {
+   // .button-size-small__name
+   &__name {
+      padding: 8px 24px;
+      border: 1px solid #e0e0e0;
+      box-sizing: border-box;
+      border-radius: 0px 5px 5px 0px;
+   }
+}
+.button-size-small-active {
+   background: #18a0fb;
+   border-radius: 5px 0px 0px 5px;
+   color: white;
+}

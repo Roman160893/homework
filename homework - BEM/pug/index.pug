@@ -1,0 +1,85 @@
+doctype html
+html(lang="en")
+   head
+      meta(charset="UTF-8")
+      meta(http-equiv="X-UA-Compatible", content="IE=edge")
+      meta(name="viewport", content="width=device-width, initial-scale=1.0")
+      title Document
+      link(rel="stylesheet", href="./scss/style.css")
+   body
+      .wrapper
+         h1 Buttons Big
+         .button__download
+            include bigDownload.pug
+            +bigButtonDownload('Download', 'button__download_big-blue')
+            +bigButtonDownload('Download', 'button__download_big-gray')
+            +bigButtonDownload('Download', 'button__download_big-border-gray')
+            +bigButtonDownload('Download', 'button__download_big-border-blue')
+            .buttons-form
+               include buttonLink.pug 
+               +buttonLink('button__link-search','./img/link1.svg')
+               +buttonLink('button__link-download', './img/link2.svg')
+               +buttonLink('button__link-document', './img/link3.svg')
+         .button__download
+            include bigDownload.pug
+            +bigButtonDownloadIcon('Download', 'button__download_big-blue', 'button__download_big-blue-icon-white')
+            +bigButtonDownloadIcon('Download', 'button__download_big-gray', 'button__download_big-blue-icon-gray')
+            +bigButtonDownloadIcon('Download', 'button__download_big-border-gray', 'button__download_big-blue-icon-black')
+            +bigButtonDownloadIcon('Download', 'button__download_big-border-blue', 'button__download_big-blue-icon-blue')
+            .buttons-tab
+               include buttonTab.pug
+               +buttonTab('button-tab-active', 'Tab 1')
+               +buttonTab( '', 'Tab 2')
+         .button__download
+            include bigDownload.pug
+            +bigButtonDownloadIcon('Download', 'button__download_big-blue', 'button__download_big-blue-icon-white', 'button__download_big-blue-icon-revers')
+            +bigButtonDownloadIcon('Download', 'button__download_big-gray', 'button__download_big-blue-icon-gray', 'button__download_big-blue-icon-revers')
+            +bigButtonDownloadIcon('Download', 'button__download_big-border-gray', 'button__download_big-blue-icon-black', 'button__download_big-blue-icon-revers')
+            +bigButtonDownloadIcon('Download', 'button__download_big-border-blue', 'button__download_big-blue-icon-blue', 'button__download_big-blue-icon-revers')
+            .buttons-size 
+               include buttonSize.pug 
+               +buttonSize('button-size-active', 'S')
+               +buttonSize('', 'M')
+               +buttonSize('', 'L')
+         
+         h2 Battons Small
+         .button__download
+            include smallButtons.pug 
+            +buttonSmall("Download", "button__download_small-blue")
+            +buttonSmall("Download", "button__download_small-gray")
+            +buttonSmall("Download", "button__download_small-border-gray")
+            +buttonSmall("Download", "button__download_small-border-blue")
+            .buttons-tab-small
+               include buttonTabSmall.pug
+               +buttonTabSmall("button-tab-small-active", "Tab 1")
+               +buttonTabSmall("", "Tab 2")
+            .buttons__search 
+               include buttonSearchSmall.pug
+               +buttonSearchSmallCircle('../img/search-small.png', 'button__search-small-circle-red')
+               +buttonSearchSmallCircle('../img/link1.svg', 'button__search-small-circle-green')
+         .button__download
+            include smallButtons.pug
+            +buttonSmallIcon('Download', 'button__download_small-blue-icon')
+            +buttonSmallIcon('Download', 'button__download_small-grey-icon')
+            +buttonSmallIcon('Download', 'button__download_small-border-grey-icon')
+            +buttonSmallIcon('Download', 'button__download_small-border-blue-icon')
+            .button__search-links 
+            include buttonSearchLinks.pug 
+            +buttonSearchLinks('button__search-link-blue')
+            +buttonSearchLinks('button__search-link-white')
+            +buttonSearchLinks('button__search-link-white')
+         .button__download
+            include smallButtons.pug
+            +buttonSmallIcon('Download', 'button__download_small-blue-icon', 'button__download_small-icon-reverve-red')
+            +buttonSmallIcon('Download', 'button__download_small-grey-icon','button__download_small-icon-reverve')
+            +buttonSmallIcon('Download', 'button__download_small-border-grey-icon','button__download_small-icon-reverve')
+            +buttonSmallIcon('Download', 'button__download_small-border-blue-icon','button__download_small-icon-reverve')
+            .buttons-size-small
+               include buttonsSizeSmall.pug 
+               +buttonSizeSmall('button-size-small-active', 'S')
+               +buttonSizeSmall('', 'M')
+               +buttonSizeSmall('', 'L')
+         .button__download-tag
+            include buttonTag.pug 
+            +buttonTag('')
+            +buttonTag('buttons__tag-active')

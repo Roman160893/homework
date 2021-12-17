@@ -1,0 +1,8 @@
+mixin bigButtonDownload(text, className)
+   .button__download_big(class=className)
+      a(href="#" )  #{text}
+
+mixin bigButtonDownloadIcon(text, className, classPath, classRevers)
+   .button__download_big-icon(class=className)(class=classPath)(class=classRevers)
+      a(href="#" )  #{text}
+      include ../img/download.svg

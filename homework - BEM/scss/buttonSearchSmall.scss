@@ -1,0 +1,30 @@
+.buttons {
+   // .buttons__search
+   &__search {
+      margin-left: 66px;
+      display: flex;
+   }
+}
+.button {
+   // .button__search-small-circle
+   &__search-small-circle {
+      justify-content: center;
+      border-radius: 50%;
+      a {
+         display: flex;
+         align-items: center;
+      }
+   }
+   // .button__search-small-circle-red
+   &__search-small-circle-red {
+      background: #ff3e1d;
+      padding: 8px;
+      align-self: start;
+      margin-right: 20px;
+   }
+   // .button__search-small-circle-green
+   &__search-small-circle-green {
+      background: #00d200;
+      padding: 12px;
+   }
+}

@@ -1,0 +1,19 @@
+.buttons-tab {
+   display: inline-flex;
+   margin-left: 134px;
+}
+.button-tab {
+   // .button-tab__name
+   &__name {
+      padding: 14px 48px;
+      border: 1px solid #e0e0e0;
+      box-sizing: border-box;
+      border-radius: 0px 5px 5px 0px;
+      cursor: pointer;
+   }
+}
+.button-tab-active {
+   background: #18a0fb;
+   border-radius: 5px 0px 0px 5px;
+   color: white;
+}

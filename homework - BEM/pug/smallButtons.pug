@@ -1,0 +1,8 @@
+mixin buttonSmall(text, className)
+   .button__download_small(class=className)
+      a(href="") #{text} 
+
+mixin buttonSmallIcon(text, className, classNameRevers)
+   .button__download_small(class=className)(class=classNameRevers)
+      a(href="") #{text}
+         include ../img/download-small.svg

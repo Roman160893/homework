@@ -1,0 +1,30 @@
+.button {
+   // .button__search-links
+   &__search-links {
+      margin-right: 142px;
+   }
+   // .button__search-link
+   &__search-link {
+      display: flex;
+      border: 1px solid #e0e0e0;
+      a {
+         padding: 4px 12px;
+      }
+   }
+   // .button__search-link-blue
+   &__search-link-blue {
+      a {
+         background: #18a0fb;
+         border-radius: 5px 0px 0px 5px;
+      }
+   }
+   // .button__search-link-white
+   &__search-link-white {
+      border: 1px solid #e0e0e0;
+      box-sizing: border-box;
+      border-radius: 0px 5px 5px 0px;
+      svg path {
+         fill: black;
+      }
+   }
+}

@@ -1,0 +1,31 @@
+.buttons-form {
+   display: inline-flex;
+   margin-left: 132px;
+}
+.button {
+   // .button__link
+   &__link {
+      display: flex;
+      align-items: center;
+   }
+   // .button__link-search
+   &__link-search {
+      padding: 10px 16px;
+      background: #18a0fb;
+      border-radius: 5px 0px 0px 5px;
+   }
+   // .button__link-download
+   &__link-download {
+      padding: 10px 16px;
+      background: #ffffff;
+      box-shadow: inset 0px 1px 0px #e0e0e0, inset 0px -1px 0px #e0e0e0;
+      border-radius: 0px;
+   }
+   // .button__link-document
+   &__link-document {
+      padding: 9px 16px;
+      border: 1px solid #e0e0e0;
+      box-sizing: border-box;
+      border-radius: 0px 5px 5px 0px;
+   }
+}

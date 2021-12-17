@@ -1,0 +1,108 @@
+body {
+   padding: 10px;
+}
+.button {
+   // .button__download
+   &__download {
+      display: inline-flex;
+      align-items: center;
+      // .button__download_big
+      &_big {
+         margin-right: 20px;
+         display: inline-block;
+         border-radius: 5px;
+         a {
+            padding: 14px 36px;
+            display: inline-block;
+            text-decoration: none;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+         }
+      }
+   }
+}
+.button__download_big-icon {
+   display: inline-flex;
+   align-items: center;
+   border-radius: 5px;
+   margin-right: 17px;
+   a {
+      padding: 15px 10px 15px 20px;
+      display: inline-block;
+      text-decoration: none;
+      font-family: "Inter", sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+   }
+   svg {
+      padding: 0px 20px 0px 0px;
+   }
+}
+
+.button__download_big-blue-icon-revers {
+   flex-direction: row-reverse;
+   a {
+      padding: 15px 20px 15px 0px;
+   }
+   svg {
+      padding: 0px 10px 0px 20px;
+   }
+}
+
+.button {
+   // .button__download
+
+   &__download {
+      &_big-blue {
+         background: #18a0fb;
+         a {
+            color: #ffffff;
+         }
+      }
+      &_big-gray {
+         background: rgba(224, 224, 224, 0.3);
+         a {
+            color: #878787;
+         }
+      }
+      &_big-border-gray {
+         border: 1px solid #e0e0e0;
+         box-sizing: border-box;
+         a {
+            color: #2c2c2c;
+         }
+      }
+      &_big-border-blue {
+         border: 1px solid #18a0fb;
+         box-sizing: border-box;
+         a {
+            color: #18a0fb;
+         }
+      }
+   }
+}
+.button {
+   // .button__download
+
+   &__download {
+      &_big-blue-icon-gray {
+         svg path {
+            stroke: #878787;
+         }
+      }
+
+      &_big-blue-icon-black {
+         svg path {
+            stroke: #2c2c2c;
+         }
+      }
+      &_big-blue-icon-blue {
+         svg path {
+            stroke: #18a0fb;
+         }
+      }
+   }
+}

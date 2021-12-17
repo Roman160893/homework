@@ -1,0 +1,177 @@
+.button {
+   // .button__download
+
+   &__download {
+      margin-bottom: 20px;
+      // .button__download_small
+      &_small {
+         a {
+            text-decoration: none;
+            font-family: "Inter", sans serif;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 16px;
+         }
+      }
+      // .button__download_small-blue
+      &_small-blue {
+         background: #18a0fb;
+         border-radius: 5px;
+         margin-right: 54px;
+         a {
+            color: #ffff;
+            padding: 10px 24px;
+            display: inline-block;
+         }
+      }
+      // .button__download_small-gray
+      &_small-gray {
+         background: rgba(224, 224, 224, 0.3);
+         border-radius: 5px;
+         margin-right: 54px;
+         a {
+            color: #878787;
+            padding: 10px 24px;
+            display: inline-block;
+         }
+      }
+      // .button__download_small-border-gray
+      &_small-border-gray {
+         background: #ffff;
+         margin-right: 54px;
+         a {
+            padding: 9px 23px;
+            display: inline-block;
+            border: 1px solid #e0e0e0;
+            box-sizing: border-box;
+            border-radius: 5px;
+         }
+      }
+      // .button__download_small-border-blue
+      &_small-border-blue {
+         background: #ffff;
+         margin-right: 54px;
+         a {
+            padding: 9px 23px;
+            display: inline-block;
+            border: 1px solid #18a0fb;
+            box-sizing: border-box;
+            border-radius: 5px;
+            color: #18a0fb;
+         }
+      }
+   }
+}
+
+.button {
+   // .button__download
+
+   &__download {
+      // .button__download_small-blue-icon
+      &_small-blue-icon {
+         background: #18a0fb;
+         border-radius: 5px;
+         margin-right: 47px;
+         a {
+            color: #ffff;
+            padding: 9px 0px 9px 12px;
+            display: flex;
+            align-items: center;
+            svg {
+               margin-left: 10px;
+               margin-right: 12px;
+            }
+         }
+      }
+
+      // .button__download_small-grey-icon
+
+      &_small-grey-icon {
+         background: rgba(224, 224, 224, 0.3);
+         border-radius: 5px;
+         margin-right: 47px;
+         a {
+            color: #ffff;
+            padding: 9px 0px 9px 12px;
+            display: flex;
+            align-items: center;
+            color: #878787;
+            svg {
+               margin-left: 10px;
+               margin-right: 12px;
+               path {
+                  stroke: #878787;
+               }
+            }
+         }
+      }
+
+      // .button__download_small-border-grey-icon
+
+      &_small-border-grey-icon {
+         border-radius: 5px;
+         margin-right: 47px;
+         a {
+            color: #ffff;
+            padding: 9px 0px 9px 12px;
+            display: flex;
+            align-items: center;
+            color: #2c2c2c;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            svg {
+               margin-left: 10px;
+               margin-right: 12px;
+               path {
+                  stroke: #2c2c2c;
+               }
+            }
+         }
+      }
+
+      // .button__download_small-border-blue-icon
+
+      &_small-border-blue-icon {
+         border-radius: 5px;
+         margin-right: 47px;
+         a {
+            color: #ffff;
+            padding: 9px 0px 9px 12px;
+            display: flex;
+            align-items: center;
+            color: #18a0fb;
+            border: 1px solid #18a0fb;
+            border-radius: 5px;
+            svg {
+               margin-left: 10px;
+               margin-right: 12px;
+               path {
+                  stroke: #18a0fb;
+               }
+            }
+         }
+      }
+      &_small-icon-reverve {
+         a {
+            flex-direction: row-reverse;
+            padding: 8px 12px 8px 1px;
+            svg {
+               margin-left: 12px;
+               margin-right: 9px;
+            }
+         }
+      }
+      &_small-icon-reverve-red {
+         a {
+            background: red;
+            border-radius: 5px;
+            flex-direction: row-reverse;
+            padding: 8px 12px 8px 1px;
+            svg {
+               margin-left: 12px;
+               margin-right: 9px;
+            }
+         }
+      }
+   }
+}

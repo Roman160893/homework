@@ -1,0 +1,36 @@
+.button {
+   // .button__download-tag
+   &__download-tag {
+      display: flex;
+   }
+}
+.buttons {
+   // .buttons__tag
+   &__tag {
+      margin-right: 25px;
+      a {
+         text-decoration: none;
+         padding: 6px 14px;
+         display: inline-block;
+         border-radius: 5px;
+         background: rgba(224, 224, 224, 0.3);
+         border: 1px solid #e0e0e0;
+         box-sizing: border-box;
+         border-radius: 5px;
+         color: #2c2c2c;
+         font-family: Inter;
+         font-style: normal;
+         font-weight: 500;
+         font-size: 13px;
+         line-height: 16px;
+      }
+   }
+   &__tag-active {
+      background: #18a0fb;
+      border-radius: 5px;
+      a {
+         color: white;
+         border: none;
+      }
+   }
+}
