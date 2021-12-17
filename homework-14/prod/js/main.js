@@ -12,7 +12,3 @@ function onYouTubeIframeAPIReady() {
       videoId: 'M7lc1UVf-VE',
    });
 }
-function onPlayerStateChange(event) {
-   if (event.data == YT.PlayerState.PLAYING && !done) {
-   }
-}
