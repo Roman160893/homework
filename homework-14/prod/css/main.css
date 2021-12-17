@@ -252,6 +252,13 @@ button {
     background: red;
     opacity: 1;
 }
+.slides__conteiner {
+    overflow: hidden;
+}
+.slides__conteiner .swiper-button-prev::after,
+.slides__conteiner .swiper-button-next::after {
+    opacity: 0;
+}
 
 .loaded_hiding .preloader {
     transition: 0.3s opacity;
