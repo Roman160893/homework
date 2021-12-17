@@ -461,6 +461,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 50px;
 }
 
 .buttons__tag {
