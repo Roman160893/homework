@@ -1,3 +1,6 @@
+@import url(./fonts.css);
+@import url(./screen.css);
+
 img {
     width: auto;
     height: auto;
