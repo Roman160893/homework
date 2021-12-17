@@ -646,6 +646,9 @@ button {
     position: relative;
     top: -15px;
     margin-right: 10px;
+    width: 100%;
+    max-width: 50px;
+    border-radius: 50%;
 }
 
 .delivery .h2 {
